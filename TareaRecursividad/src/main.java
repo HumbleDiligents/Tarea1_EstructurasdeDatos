@@ -12,21 +12,27 @@ public class main {
         //System.out.println("Resultado: " + result);
         
         
-        //numeros naturales
+        //numeros naturales 
         
         //NumerosNaturales suma = new NumerosNaturales();
         //int resultado = NumerosNaturales.sumar(8);
        //System.out.println("La suma de los números naturales hasta 8 es: " + resultado);
 
         //Ejercicio 3
-        Binario bin  = new  Binario();
-        int num = 33333;
-          if (bin.esBinario(num)) {
-         System.out.println(num + " es un número binario");
-        } else {
-         System.out.println(num + " no es un número binario");
-        }
+        //Binario bin  = new  Binario();
+        //int num = 33333;
+        //  if (bin.esBinario(num)) {
+        // System.out.println(num + " es un número binario");
+       // } else {
+       //  System.out.println(num + " no es un número binario");
+       // }
         
+          //Ejercicio 2
+        
+        String oracion = "Eliminare las vocales de esta oracion";
+        EliminarVocales eliminar = new EliminarVocales();
+        String oracionResultante = eliminar.eliminaVocales(oracion);
+        System.out.println("Oración sin vocales: " + oracionResultante);
         
     }
 

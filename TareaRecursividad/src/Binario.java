@@ -3,18 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-
-/**
- *
- * @author Sebastian
- */
 public class Binario {
     
     public boolean esBinario(int num) {
       // Convertir el número a una cadena   
     String str = Integer.toString(num);
     
-       // Recorrer cada carácter de la cadena  
+       // Recorrer cada caracter de la cadena  
     for (int i = 0; i < str.length(); i++) {
        
         //se utiliza para obtener el carácter en la posición  (i)
